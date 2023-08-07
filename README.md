@@ -1,4 +1,4 @@
-# ImageCaptioningProject
+# Image Captioning Project
 This code is based on https://github.com/keras-team/keras-io/blob/master/examples/vision/image_captioning.py, by A. K. Nain.
 
 The model architecture is changed - now it doesn't consist of encoder-transformer. Instead, the decoder is more complex and uses 4 multihead attention layers with num_heads equals to 4.
