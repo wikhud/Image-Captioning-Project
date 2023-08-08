@@ -2,7 +2,7 @@
 This code is based on https://github.com/keras-team/keras-io/blob/master/examples/vision/image_captioning.py, by A. K. Nain.
 
 The model architecture is changed - now it doesn't consist of encoder-transformer. Instead, the decoder is more complex and uses 4 multihead attention layers with num_heads equals to 4.
-The CNN model, for features extaraction, might now be selected from Inceptionv3, VGG16, ResNet50.
+The CNN model, for features extaraction, might now be one of Inceptionv3, VGG16, ResNet50.
 Metrics, such as BLEU, ROUGE, METEOR AND CIDEr are included. 
 There were also some modifications made at data prepration step, to keep first 20 images and their coresponding captions (from Flickr8k dataset) out of training set.
 
