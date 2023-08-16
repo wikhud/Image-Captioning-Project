@@ -12,6 +12,7 @@ The best results were usually achieved by ResNet50, while Inceptionv3 mostly wen
 
 An example of code output for an image of Flickr8k dataset:
 
+
+
 ![Zrzut ekranu 20237](https://github.com/wikhud/Image-Captioning-Project/assets/99511332/f60aec53-1369-4456-9112-c5e96d8f8efd)
 
-*Excuse my mistake in "Predicted caption: ".
