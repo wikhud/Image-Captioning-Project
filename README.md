@@ -11,5 +11,7 @@ This project was a part of my master thesis. The goal of this code was to select
 The best results were usually achieved by ResNet50, while Inceptionv3 mostly went the worst. VGG16 went pretty well. The modifications made to arhitecture usually didn't affect the final model performance - rearly, the results were better. Different combinations of training parameters didn't usually have great influence on it either. Only Inceptionv3 needed to have quite big batch size, otherswise the generated captions were just single repeated words, like "a man is is is is is is...".
 
 An example of code output for an image of Flickr8k dataset:
+
 ![Zrzut ekranu 20237](https://github.com/wikhud/Image-Captioning-Project/assets/99511332/f60aec53-1369-4456-9112-c5e96d8f8efd)
+
 *Excuse my mistake in "Predicted caption: ".
