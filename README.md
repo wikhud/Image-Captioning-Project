@@ -6,7 +6,7 @@ The CNN model, for features extaraction, can be now selected from: Inceptionv3, 
 Metrics, such as BLEU, ROUGE, METEOR AND CIDEr were included. 
 Some modifications have been made at data prepration step to keep first 20 images and their coresponding captions (from Flickr8k dataset) out of training set.
 
-This project was a part of my master thesis. The goal of the code was to select image captioning model with the best performance. The models were tested with different CNN models and different configurations of training parameters, such as: num of epochs, batch sizes and values of early stopping patience. The evalutaion based on metrics results and human judgement.
+This project was a part of my master thesis. The goal was to select image captioning model with the best performance. The models were tested with different CNN models and different configurations of training parameters, such as: num of epochs, batch sizes and values of early stopping patience. The evalutaion based on metrics results and human judgement.
 
 The best results were usually achieved with ResNet50, while Inceptionv3 mostly went the worst. VGG16 went pretty well. The modifications made to arhitecture usually didn't affect the final model performance - rearly, the results were better. Different combinations of training parameters didn't have a substantial impact either. Only Inceptionv3 needed a bigger batch size, otherswise, the generated captions were just single repeated words, like "a man is is is is is is...".
 
